@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Converter Temperature</title>
+  <style>
+    .exampleOne {
+        padding-left: 20px;
+        width: 450px;
+        border: 10px black;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .exampleTwo {
+        padding-top: 10px;
+        padding-block-start: 20px;
+        padding-inline-end: 30px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+  </style>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header id="navigation-bar">
+          <h3 id="logo">
+            <img src="https://cdn.onlinewebfonts.com/svg/img_5782.png" alt="" width="28px" height="30px">
+          </h3>
+          <nav id="navigation">
+            <a herf="">Home</a>
+            <a herf="">Convert</a>
+            <a herf="">Formula</a>
+            <a herf="">About</a>
+          </nav>
+    </header>
+    <p class="exampleOne">The Celsius temperature range was originally defined by setting zero as the temperature at which water froze. Zero degrees C was later redefined as the temperature at which ice melts. The other point at which Celsius was set – 100 degrees Celsius – was defined as the boiling point of water.
+
+        Since its definition, the Celsius scale has been redefined to peg it to Kelvin. Zero degrees Celsius is now defined as 273.15K. As one degree Celsius is equal to one Kelvin, boiling point of water is equal to 273.15 + 100 = 373.15 Kelvin.
+        
+        The Fahrenheit temperature range is based on setting the freezing point of water at 32 degrees, and boiling to 212 degrees. This means that boiling and freezing point are 180 degrees apart. Absolute zero is defined as -459.67°F</p>
+    <q class="exampleTwo">Note : Please input the desired temperature. The input is only numbers </q>
+    <div class="input-section">
+        <label for="input-field">
+            <h4>Celcius (°C)</h4>
+        </label>
+        <input type="number" class="input-field">
+    </div>
+
+    <button class="my-button" type="button" id="convert">
+        <h7>Convert</h7>
+    </button>
+    <button class="my-button" type="button" id="reset">
+        <h7>Reset</h7>
+    </button>
+    <button class="my-button" type="button" id="reverse">
+        <h7>Reverse</h7>
+    </button>
+
+    <div class="input-section">
+        <label for="input-field">
+            <h4>Farenheit (°F)</h4>
+        </label>
+        <input type="number" class="input-field">
+    </div>
+
+    <div class="formula-note">
+        <h1 id="conversion-title">Cara Conversi Dari Celcius(&deg;C) Ke Fahrenheit(&deg;F)</h1>
+        <p id="conversion-text">
+            Suhu <span class="superscript">S</span> dalam derajat Fahrenheit (&deg;F) sama dengan suhu <span class="superscript">S</span> dalam derajat Celcius (&deg;C) kali 9/5 tambah 32
+            <br><br>
+            (S<span class="subscript">(&deg;S)</span> x 9/5) + 32
+            <br><br>
+            atau
+            <br><br>
+            S<span class="subscript">(&deg;F)</span> = (S<span class="subscript">(&deg;S)</span> x 1.8) + 32
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
