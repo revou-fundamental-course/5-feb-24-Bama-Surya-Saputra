@@ -28,19 +28,19 @@
       flex-direction: column;
   }
 
-  .input-field {
+  .form-control {
     outline: 0;
     border-radius: 7px;
     background-color: solid black;
     padding: 10px 10px;
   }
 
-  .input-field:focus {
+  .form-control:focus {
     border: solid aquamarine;
   }
 
-  .my-button {
-    background-color: rgb(15, 117, 15);
+  .button-container {
+    background-color: rgb(22, 134, 22);
     color: rgb(242, 246, 250);
     border: none;
     border-radius: 7px;
