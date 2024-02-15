@@ -1,10 +1,10 @@
 let isCelsius = true;
-let inputvalue = "";
-let outputvalue = "";
+let inputvalue = '';
+let outputvalue = '';
 var titleElement = document.getElementById("conversion-title");
 var textElement = document.getElementById("conversion-text");
 
-document.getElementById('mainElement') .classList.add('show');
+document.getElementById("mainElement").classList.add('show');
 
 function celsiusToFareheit(celsius) {
     return (celsius * 9/5) + 32;
@@ -73,4 +73,3 @@ document.getElementById("reset").addEventListener("click", function() {
     document.getElementById("result").value = "";
     document.getElementById("input").value = ""
 });
-

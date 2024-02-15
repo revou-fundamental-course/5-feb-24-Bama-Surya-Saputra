@@ -14,7 +14,7 @@
   
   #navigation>a {
       text-decoration: none;
-      padding: 100px;
+      padding: 20px;
   }
   
   #navigation-hover {
@@ -40,7 +40,7 @@
   }
 
   .my-button {
-    background-color: rgb(27, 117, 27);
+    background-color: rgb(15, 117, 15);
     color: rgb(242, 246, 250);
     border: none;
     border-radius: 7px;
